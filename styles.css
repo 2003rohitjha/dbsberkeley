@@ -1,0 +1,169 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Default font family */
+}
+
+/* Style the header */
+.sticky-header {
+    background-color: #6548a3; /* Purple background */
+    color: #fff; /* White text */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sticky-header a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+/* Style the logo */
+.sticky-header img {
+    width: 50px; /* Adjust the size of the logo */
+    margin-left: 20px;
+}
+
+/* Style the navigation menu */
+.sticky-header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.sticky-header nav li {
+    margin: 0 20px;
+}
+
+/* Style alternating sections with background colors */
+.alternate-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-size: cover;
+}
+
+/* Yellow background for odd sections */
+.alternate-section:nth-child(odd) {
+    background-color: #ffd700; /* Yellow background color */
+}
+
+/* White background for even sections */
+.alternate-section:nth-child(even) {
+    background-color: #fff; /* White background color */
+}
+
+/* Purple background for footer */
+footer {
+    background-color: #6548a3; /* Purple background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Left content */
+.left-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-content h2 {
+    font-size: 2rem;
+}
+
+.left-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Right content (image) */
+.right-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the button */
+.button {
+    display: inline-block;
+    background-color: #CBC3E3; /* Purple background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #463279; /* Darker purple on hover */
+}
+
+/* Purple background for the purple theme */
+.alternate-section.purple-theme {
+    background-color: #6548a3; /* Purple background color */
+    color: #fff; /* White text color */
+}
+/* Style for the team member squares */
+.person {
+    background-color: #fff; /* White background */
+    color: #333; /* Text color */
+    border: 1px solid #6548a3; /* Purple border */
+    padding: 20px;
+    text-align: center;
+    width: calc(33.33% - 20px); /* Three squares in a row with spacing */
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+/* Adjust the background colors for alternating rows */
+.alternate-section.yellow-theme .person {
+    background-color: #ffd700; /* Yellow background for the second row */
+}
+
+/* Add additional CSS for styling images, text, and other elements within the squares */
+.person img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.person h3 {
+    font-size: 1.2rem;
+}
+
+.person p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Purple background for the purple theme */
+.alternate-section.purple-theme {
+    background-color: #6548a3; /* Purple background color */
+    color: #fff; /* White text color */
+}
+
+/* Yellow background for the yellow theme */
+.alternate-section.yellow-theme {
+    background-color: #ffd700; /* Yellow background color */
+    color: #333; /* Dark text color for contrast */
+}
+
+/* White background for the white theme */
+.alternate-section.white-theme {
+    background-color: #fff; /* White background color */
+    color: #333; /* Dark text color for contrast */
+}

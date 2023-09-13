@@ -1,0 +1,52 @@
+/* Style for the team member squares */
+.person {
+    background-color: #fff; /* White background */
+    color: #333; /* Text color */
+    border: 1px solid #6548a3; /* Purple border */
+    padding: 20px;
+    text-align: center;
+    width: calc(33.33% - 20px); /* Three squares in a row with spacing */
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+/* Adjust the background colors for alternating rows */
+.alternate-section.yellow-theme .person {
+    background-color: #ffd700; /* Yellow background for the second row */
+}
+
+/* Add additional CSS for styling images, text, and other elements within the squares */
+.person img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.person h3 {
+    font-size: 1.2rem;
+}
+
+.person p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Purple background for the purple theme */
+.alternate-section.purple-theme {
+    background-color: #6548a3; /* Purple background color */
+    color: #fff; /* White text color */
+}
+
+/* Yellow background for the yellow theme */
+.alternate-section.yellow-theme {
+    background-color: #ffd700; /* Yellow background color */
+    color: #333; /* Dark text color for contrast */
+}
+
+/* White background for the white theme */
+.alternate-section.white-theme {
+    background-color: #fff; /* White background color */
+    color: #333; /* Dark text color for contrast */
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Offerings | Diverse Business Society</title>
+</head>
+<body>
+    <header class="sticky-header">
+        <a href="home.html"><img src="logo.png" alt="DBS Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="https://www.instagram.com/dbsberkeley/">Contact Us</a></li>
+                <li><a href="meet.html">Meet Us</a></li>
+                <li><a href="offerings.html">Offerings</a></li>
+                <li><a href="join.html">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Section 1: Intro - White Theme (img left, text right) -->
+<section class="alternate-section white-theme">
+    <div class="left-content">
+        <br>
+        <br>
+        <h2>Our Pillars of Membership! test</h2>
+        <p>We have open general membership, and a fellowship program for students who want a more intensive professional development program. </p> 
+    </div>
+    <div class="right-content">
+        <img src="offerings.png" alt="DBS Club Picture" width="200px">
+    </div>
+</section>
+
+<!-- Section 2: Contact - Purple Theme (text left, img right) -->
+<section class="alternate-section purple-theme">
+    <div class="left-content">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnoGZ6FTgoTILlt2YYXReygU54ugzpQMeWflDrCUgfqNkQFA/viewform?usp=sf_link/" class="button">
+        Interest Form
+        </a>
+    </div>
+    <div class="right-content">
+        <h2>General Membership</h2>
+        <p>
+            General members will have access to open advising and workshops facilitated by DBS. The Diverse Business Society will help general members from marginalized backgrounds receive the mentorship and resources necessary to receive job offers in positions that will launch their careers. This includes weekly workshops on topics such as resume building and technical and behavioral interviews. We also facilitate these students' admission to the well-resourced campus organizations that they are historically excluded from such consulting and business clubs. 
+        </p>
+    </div>
+</section>
+
+<!-- Section 3: Meet the Members - Yellow Theme (img left, text right) -->
+<section class="alternate-section yellow-theme">
+    <div class="left-content">
+        <h2>Meet the Members</h2>
+        <p>Get to know the <a href="meet.html">brilliant people</a> working on our team!</p>
+    </div>
+    <div class="right-content">
+        <a href="meet.html"><img src="members.png" alt="Members Image" width="200px"></a>
+    </div>
+</section>
+
+
+<!-- Section 4: Our Offerings - Purple Theme (text left, img right) -->
+<section class="alternate-section purple-theme">
+    <div class="left-content">
+        <a href="offerings.html"><img src="offerings.png" alt="Offerings Image" width="200px"></a>
+    </div>
+    <div class="right-content">
+        <h2>Our Offerings</h2>
+        <p>Whether you are completely new to business as a whole, or you've been studying the ins and outs of finance since you were a baby, Diverse Business Society has a place for you!. Discover what we offer <a href="offerings.html">here</a> and see which level of membership works best for you!</p>
+    </div>
+</section>
+
+<!-- Section 5: Join Us - White Theme (img left, text right) -->
+<section class="alternate-section white-theme">
+    <div class="left-content">
+        <h2>Join Us</h2></a>
+        <p>Learn how to <a href="join.html"> join </a> our club.</p>
+    </div>
+    <div class="right-content">
+        <a href="join.html"><img src="joinus.png" alt="Join Us Image" width="200px"></a>
+    </div>
+</section>
+
+
+ 
+    <!-- Add more content here -->
+
+    <footer>
+        <h2>Diverse Business Society members have gone on to recieve offers at many well reknowned companies in banking, consulting, and technology.:</h2>
+        <img src="destinations.png" alt="DBS Destinations">
+        <!-- Add images and information about offers -->
+    </footer>
+</body>
+</html>
