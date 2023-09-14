@@ -131,7 +131,7 @@ footer {
 
 /* Adjust the background colors for alternating rows */
 .alternate-section.yellow-theme .person {
-    background-color: #ffd700; /* Yellow background for the second row */
+    background-color: #fff; /* Yellow background for the second row */
 }
 
 /* Add additional CSS for styling images, text, and other elements within the squares */

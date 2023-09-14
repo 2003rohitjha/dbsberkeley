@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Diverse Business Society</title>
+    <title>Offerings | Diverse Business Society</title>
 </head>
 <body>
     <header class="sticky-header">
         <a href="home.html"><img src="logo.png" alt="DBS Logo"></a>
         <nav>
             <ul>
-                <li> <h1> Welcome to Diverse Business Society! </h1> </li>
                 <li><a href="home.html">Home</a></li>
+                <li><a href="https://www.instagram.com/dbsberkeley/">Contact Us</a></li>
                 <li><a href="meet.html">Meet Us</a></li>
                 <li><a href="offerings.html">Offerings</a></li>
-                <li><a href="https://www.instagram.com/dbsberkeley/">Contact Us</a></li>
-                <li><a href="https://linktr.ee/diversebusinesssociety">Join Us</a></li>
+                <li><a href="join.html">Join Us</a></li>
             </ul>
         </nav>
     </header>
@@ -26,28 +25,31 @@
     <div class="left-content">
         <br>
         <br>
-        <h2>Welcome to Diverse Business Society!</h2>
-        <p>UC Berkeley’s first student-run organization focused on providing professional development resources for diverse young professionals.</p>
-        <p>Our organization is the only student organization at UC Berkeley that represents <b> all intersectional minority groups </b> and unites us under one mission -- to professionally develop and create a safe space for Black, Latine, LGBTQ+, and all historically marginalized students. <b> We accept all applicants </b> and provide an open-resource weekly fellowship program which trains all students that come to us on how to recruit for careers in <b> finance, consulting, technology, and more</b>.</p>
+        <h2>Our Pillars of Membership! test</h2>
+        <p>We have open general membership, and a fellowship program for students who want a more intensive professional development program. </p> 
     </div>
     <div class="right-content">
-        <img src="logo.png" alt="DBS Club Picture" width="200px">
+        <img src="offerings.png" alt="DBS Club Picture" width="200px">
     </div>
 </section>
 
 <!-- Section 2: Contact - Purple Theme (text left, img right) -->
-<section class="alternate-section yellow-theme">
+<section class="alternate-section purple-theme">
     <div class="left-content">
-        <a href="https://www.instagram.com/dbsberkeley/"> <img src="contact.png" alt="Contact Image" width = "200px"></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnoGZ6FTgoTILlt2YYXReygU54ugzpQMeWflDrCUgfqNkQFA/viewform?usp=sf_link/" class="button">
+        Interest Form
+        </a>
     </div>
     <div class="right-content">
-        <h2>Contact Us</h2>
-        <p>Feel free to <a href="mailto:DiverseBusinessSociety@gmail.com">email us</a> anytime with any questions regarding membership, applications, or anything else! We'd love to hear anything you. Reach out to us via email or DM us @DBSBerkeley on Instagram!</p>
+        <h2>General Membership</h2>
+        <p>
+            General members will have access to open advising and workshops facilitated by DBS. The Diverse Business Society will help general members from marginalized backgrounds receive the mentorship and resources necessary to receive job offers in positions that will launch their careers. This includes weekly workshops on topics such as resume building and technical and behavioral interviews. We also facilitate these students' admission to the well-resourced campus organizations that they are historically excluded from such consulting and business clubs. 
+        </p>
     </div>
 </section>
 
 <!-- Section 3: Meet the Members - Yellow Theme (img left, text right) -->
-<section class="alternate-section white-theme">
+<section class="alternate-section yellow-theme">
     <div class="left-content">
         <h2>Meet the Members</h2>
         <p>Get to know the <a href="meet.html">brilliant people</a> working on our team!</p>
@@ -73,7 +75,7 @@
 <section class="alternate-section white-theme">
     <div class="left-content">
         <h2>Join Us</h2></a>
-        <p>Check out our LinkTree for the most up to date info on our recruitment cycle and get all the information you need to <a href="join.html"> join </a> our club.</p>
+        <p>Learn how to <a href="join.html"> join </a> our club.</p>
     </div>
     <div class="right-content">
         <a href="join.html"><img src="joinus.png" alt="Join Us Image" width="200px"></a>
@@ -86,7 +88,7 @@
 
     <footer>
         <h2>Diverse Business Society members have gone on to recieve offers at many well reknowned companies in banking, consulting, and technology.:</h2>
-        <img src="destinations.png" alt="DBS Destinations" width="250px">
+        <img src="destinations.png" alt="DBS Destinations">
         <!-- Add images and information about offers -->
     </footer>
 </body>
